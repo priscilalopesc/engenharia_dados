@@ -1,10 +1,10 @@
-# Databricks notebook source
+﻿# Databricks notebook source
 # DBTITLE 1,Inicialização
 from pyspark.sql.functions import when, col, lit, concat, trim , expr
 import os
 from pyspark.sql.types import DoubleType
 
-# COMMAND ----------
+# COMMAND ------------
 
 # DBTITLE 1,Monta o Data Lake
 def mount_blob(account_name, account_key, container):
